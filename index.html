@@ -3,48 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ByteFusion - Innovative solutions in Native Android and iOS Development, Hybrid App Development, UI/UX Design, Backend Development, and Quality Assurance.">
+    <meta name="keywords" content="Android Development, iOS Development, Flutter, React Native, UI/UX Design, Backend Development, Quality Assurance, Mobile Apps, Startup Services">
     <title>ByteFusion</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .content {
+            padding: 40px;
+        }
+        .service-card img {
+            max-width: 100%;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+        }
+        .chat-box {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            background-color: #f1f1f1;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .chat-box h4 {
+            margin-top: 0;
+        }
+        .form-control {
+            border-radius: 0;
+        }
+    </style>
 </head>
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <h1>Welcome to ByteFusion</h1>
-    <p>Your partner in innovative mobile app development</p>
+<header class="header">
+    <h1>ByteFusion</h1>
 </header>
-<section id="home">
-    <img src="https://plus.unsplash.com/premium_photo-1663050681752-4c95effcca58?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Technology Image">
-</section>
-<section id="about">
-    <h2>About Us</h2>
-    <p>ByteFusion specializes in creating high-quality mobile applications for both native and hybrid platforms. Our team of experts is dedicated to delivering exceptional user experiences and innovative solutions.</p>
-    <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?q=80&w=2894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team Image">
-</section>
-<section id="services">
-    <h2>Our Services</h2>
-    <ul>
-        <li>Native Android and iOS Development</li>
-        <li>Hybrid App Development (Flutter, React Native)</li>
-        <li>UI/UX Design</li>
-        <li>Backend Development</li>
-        <li>Quality Assurance</li>
-    </ul>
-    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Services Image">
-</section>
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p>Feel free to reach out to us at: <a href="mailto:arslanraza775@gmail.com">arslanraza775@gmail.com</a></p>
-    <img src="https://plus.unsplash.com/premium_photo-1675842663249-a8b70103dbaa?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Contact Image">
-</section>
-<footer>
-    <p>© 2024 ByteFusion. All rights reserved.</p>
+
+<div class="content container">
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>Welcome to ByteFusion, where innovation meets technology. We are a cutting-edge startup specializing in Native Android and iOS Development, Hybrid App Development, UI/UX Design, Backend Development, and Quality Assurance. Our mission is to deliver exceptional and creative solutions tailored to your business needs. With a team of experienced professionals, we are dedicated to providing high-quality services that drive success and growth.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 service-card">
+                <img src="https://via.placeholder.com/400x300" alt="Android Development">
+                <h3>Native Android and iOS Development</h3>
+                <p>We offer specialized services in developing high-performance native applications for both Android and iOS platforms, ensuring a seamless and intuitive user experience.</p>
+            </div>
+            <div class="col-md-4 service-card">
+                <img src="https://via.placeholder.com/400x300" alt="Hybrid App Development">
+                <h3>Hybrid App Development</h3>
+                <p>Our hybrid app development services use frameworks like Flutter and React Native to create versatile applications that work across multiple platforms with a single codebase.</p>
+            </div>
+            <div class="col-md-4 service-card">
+                <img src="https://via.placeholder.com/400x300" alt="UI/UX Design">
+                <h3>UI/UX Design</h3>
+                <p>We design engaging and user-friendly interfaces that enhance the overall user experience, focusing on aesthetics, usability, and functionality.</p>
+            </div>
+            <div class="col-md-4 service-card">
+                <img src="https://via.placeholder.com/400x300" alt="Backend Development">
+                <h3>Backend Development</h3>
+                <p>Our backend development services ensure a robust and scalable infrastructure, handling everything from database management to server-side logic and integration.</p>
+            </div>
+            <div class="col-md-4 service-card">
+                <img src="https://via.placeholder.com/400x300" alt="Quality Assurance">
+                <h3>Quality Assurance</h3>
+                <p>We provide thorough quality assurance testing to ensure your application is bug-free, reliable, and performs optimally across all devices and platforms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/600x400" alt="Project 1">
+            </div>
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/600x400" alt="Project 2">
+            </div>
+        </div>
+    </section>
+
+    <section id="success-stories">
+        <h2>Success Stories</h2>
+        <p>Discover how our clients have benefited from our innovative solutions. We have a track record of delivering impactful results and driving success for various businesses.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>The Future of Mobile Application Development</h3>
+            <p>Mobile application development is evolving rapidly, with new technologies and frameworks shaping the future. Staying updated with these trends is crucial for businesses to remain competitive. From advancements in AI and machine learning to the rise of cross-platform development, the future of mobile apps is bright and full of possibilities.</p>
+        </article>
+        <article>
+            <h3>Why UI/UX Design Matters in Mobile Apps</h3>
+            <p>UI/UX design plays a critical role in the success of mobile applications. A well-designed interface and user experience can significantly enhance user satisfaction and engagement. Investing in high-quality design ensures that your app is not only functional but also enjoyable to use.</p>
+        </article>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>Contact us at: <a href="mailto:arslanraza775@gmail.com" style="color: #ffffff;">arslanraza775@gmail.com</a></p>
 </footer>
+
+<div class="chat-box">
+    <h4>Send Us a Message</h4>
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="user-email">Email</label>
+            <input type="email" class="form-control" id="user-email" placeholder="Your email" required>
+        </div>
+        <div class="form-group">
+            <label for="message-title">Title</label>
+            <input type="text" class="form-control" id="message-title" placeholder="Message title" required>
+        </div>
+        <div class="form-group">
+            <label for="message-body">Message</label>
+            <textarea class="form-control" id="message-body" rows="3" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
