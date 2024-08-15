@@ -13,6 +13,22 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 section {
     padding: 2em;
     margin: 1em 0;
@@ -23,6 +39,13 @@ section {
 
 h2 {
     color: #4CAF50;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1em;
 }
 
 footer {
